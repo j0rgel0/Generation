@@ -11,15 +11,14 @@
       <h1 class="display-4 m-3"><strong>Javascript</strong> - Ejercicio X</h1>
       <p class="m-3"><strong>INSTRUCCIONES:</strong> Realizar un algortimo para adivinar un número entre el 1 y el 100 en el menor número de pasos posibles</p>
 
-      <div class="row mx-auto">
-        <div class="col-sm-6">
-          <div class="card border-secondary mb-3 shadow-lg p-3 mb-5 bg-white rounde">
-            <div class="card-body">
+      <div class="row p-3"><!-- div principal -->
+        <div class="col-sm mb-3"><!-- primer contenedor -->
+          <div class="card border-secondary p-3 shadow-lg bg-white rounde">
+            <div>
               <h5 class="card-title">Entrada de datos.</h5>
 
               <form id="formEjecutar">
                 <div class="form-group ">
-                  <!-- <label for="val01"></label> -->
                   <input type="text" class="form-control" id="num1" placeholder="Escribe un número del 100 al 200" name="val01"/>
                 </div>
                 <span id="intentos" class="card-text"></span>
@@ -28,30 +27,30 @@
                 <button type="submit" id="botonEjecutar" class="btn btn-primary">¡Ejecútalo!</button>
               </form>
             </div>
-          </div>
-        </div>
+          </div><!-- primer contenedor -->
 
-        <div class="col-sm-6">
-            <div class="card border-danger mb-3 shadow-lg p-3 mb-5 bg-white rounde">
-              <div id="divResultado" class="card-body">
+          <div class="col-sm mb-3"><!-- segundo contenedor -->
+            <div class="card border-secondary p-3 shadow-lg bg-white rounde">
+              <div>
                 <h5 class="card-title">Números utilizados.</h5>
                 
-                <span id="utilizados" class="card-text"></span>
+                <span id="utilizados" class="mt-0"></span>
               </div>
             </div>
-          </div>
-        </div> 
+          </div><!-- segundo contenedor -->
 
-
-        <div class="col-sm-6">
-          <div class="card border-success mb-3 shadow-lg p-3 mb-5 bg-white rounde">
+        <div class="col-sm"><!-- tercer contenedor -->
+          <div class="card border-secondary shadow-lg bg-white rounde">
             <div id="divResultado" class="card-body">
               <h5 class="card-title">Resultado.</h5>
               <span id="resultado" class="card-text"></span>
             </div>
           </div>
-        </div>
-      </div>    
+        </div><!-- tercer contenedor --> 
+
+        </div><!-- div principal -->
+
+ 
       
       <div class="text-center">
         <a href="../index.html" class="btn btn-success mb-4" role="button">Regresar</a>
