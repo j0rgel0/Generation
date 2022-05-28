@@ -1,4 +1,4 @@
-![Image](https://fondify-media.s3.amazonaws.com/organizations/logos/2018-08-20/picture_4OVmpwd.png)
+![Image](https://i.ibb.co/gSGkRnr/Dise-o-sin-t-tulo.png)
 
 # Información General:
 
