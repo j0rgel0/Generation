@@ -12,6 +12,8 @@ botonEjecutar.addEventListener("click",function(event){
     if(num[0] < 100 || num[0] > 200) {
         console.log("Escribe un número entre el 100 y 200.");
         document.getElementById("resultado").innerHTML=
+        "";
+        document.getElementById("mensajeError").innerHTML=
         "Escribe un número entre el 100 y 200.";
     } else if(num[0] % 3 == 0) {
         console.log("Si es multiplo de 3.");

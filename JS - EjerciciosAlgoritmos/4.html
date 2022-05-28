@@ -11,34 +11,36 @@
       <h1 class="display-4 m-3"><strong>Javascript</strong> - Ejercicio 4</h1>
       <p class="m-3"><strong>INSTRUCCIONES:</strong> Solicitar un entero (entre el 100 y el 200) y determinar si es múltiplo de 3.</p>
 
-      <div class="row mx-auto">
-        <div class="col-sm-6">
-          <div class="card border-secondary mb-3 shadow-lg p-3 mb-5 bg-white rounde">
-            <div class="card-body">
+      <div class="row p-3"><!-- div principal -->
+        <div class="col-sm mb-2"><!-- primer contenedor -->
+          <div class="card border-secondary p-3 shadow-lg bg-white rounde">
+            <div class="p-3">
               <h5 class="card-title">Entrada de datos.</h5>
 
               <form id="formEjecutar">
                 <div class="form-group ">
                   <!-- <label for="val01"></label> -->
                   <input type="text" class="form-control" id="num1" placeholder="Escribe un número del 100 al 200" name="val01"/>
+
+                <span
+                id="mensajeError"
+                class="card-text text-danger font-weight-bold"></span>
                 </div>
-                
-                </div>
-                <button type="submit" id="botonEjecutar" class="btn btn-primary">¡Ejecútalo!</button>
+                <button type="submit" id="botonEjecutar" class="btn btn-primary mt-3">¡Ejecútalo!</button>
               </form>
 
             </div>
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="card border-success mb-3 shadow-lg p-3 mb-5 bg-white rounde">
-            <div id="divResultado" class="card-body">
+          </div> 
+        </div> <!-- primer contenedor -->
+        <div class="col-sm"> <!-- segundo contenedor -->
+          <div class="card border-secondary mb-5 p-3 shadow-lg bg-white rounde">
+            <div >
               <h5 class="card-title">Resultado.</h5>
-              <span id="resultado" class="card-text"></span>
+              <span id="resultado" class="text-success font-weight-bold"></span>
             </div>
           </div>
-        </div>
-      </div>    
+        </div> <!-- segundo contenedor -->
+      </div> <!-- div principal -->   
       
       <div class="text-center">
         <a href="../index.html" class="btn btn-success mb-4" role="button">Regresar</a>
