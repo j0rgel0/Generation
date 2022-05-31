@@ -9,7 +9,7 @@
   </head>
   <body>
       <h1 class="display-4 m-3"><strong>Javascript</strong> - Ejercicio 7</h1>
-      <p class="m-3"><strong>INSTRUCCIONES:</strong> Añadiendo nombres utilizando arreglos.</p>
+      <p class="m-3"><strong>INSTRUCCIONES:</strong> Añadiendo nombres utilizando arreglos y ciclos For, While, Do While.</p>
 
       <div class="row p-3"><!-- div principal --> 
 
@@ -27,21 +27,39 @@
                 </div>
 
                 <button type="submit" id="botonEjecutar" class="btn btn-primary mt-3">Añadir</button>
+
+                <button type="submit" id="botonPop" class="btn btn-primary mt-3">Borrar último registro - pop());</button>
               </form>
+
+              <div class="mt-3 mb-3">
+
+                <h5 class="card-title">Nombres añadidos al arreglo.</h5>
+                <span id="nombresArray" class="mt-0"></span>
+  
+                <h5 class="card-title mt-3">Número de nombres añadidos(s).</h5>
+                  <span id="numNombres"></span>
+  
+
+              </div>
             </div>
           </div> <!-- primer contenedor -->
 
           <div class="col-sm"> <!-- segundo contenedor -->
             <div class="card border-secondary p-3 shadow-lg bg-white rounde">
-              
-              <div>
-                <h5 class="card-title">Nombres añadidos al arreglo.</h5>
-                <span id="nombresArray" class="mt-0"></span>
+
+              <div class="mb-3">
+                <h5 class="card-title">Nombres añadidos al arreglo. (regresión for) </h5>
+                <span id="nombresArrayFor" class="mt-0"></span>
               </div>
-              
-              <div>
-                <h5 class="card-title mt-3">Número de nombres añadidos(s).</h5>
-                <span id="numNombres"></span>
+
+              <div class="mb-3">
+                <h5 class="card-title">Nombres añadidos al arreglo. (regresión while) </h5>
+                <span id="nombresArrayWhile" class="mt-0"></span>
+              </div>
+
+              <div class="mb-1">
+                <h5 class="card-title">Nombres añadidos al arreglo. (regresión foreach) </h5>
+                <span id="nombresArrayDoWhile"></span>
               </div>
 
             </div>
