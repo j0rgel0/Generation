@@ -3,7 +3,7 @@
 # Información General:
 
 Este es un repositorio de los ejercicios del Bootcamp de Generation México para desarrolladores Full Stack Java Jr.
-Entra en la siguiente liga para verlos en vivo: [Página de ejercicios](https://j0rgel0.github.io/Generation/)
+Entra en la siguiente liga para verlos en vivo: [Página de ejercicios]([https://j0rgel0.github.io/Generation/](https://j0rgel0.github.io/Generation-EjerciciosJavascript-1/))
 
 ## Ejercicios de Javascript - Fundamentos.
 
